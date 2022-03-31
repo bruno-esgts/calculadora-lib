@@ -2,7 +2,8 @@ package pt.esgts.eng.calculadora.lib;
 
 import java.util.List;
 
-public class Operations {
+public class
+Operations {
 
     public static double sum(double num1, double num2) {
         return sum(List.of(num1, num2));
