@@ -17,4 +17,18 @@ public class Operations {
 
         return result;
     }
+
+    public static double sub(double num1, double num2) {
+        return sub(List.of(num1, num2));
+    }
+
+    public static double sub(List<Double> numbers) {
+        int result = 0;
+
+        for (int i = 0; i < numbers.size(); i++) {
+            result -= numbers.get(i);
+        }
+
+        return result;
+    }
 }
