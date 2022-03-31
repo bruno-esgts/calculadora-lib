@@ -23,9 +23,9 @@ public class Operations {
     }
 
     public static double sub(List<Double> numbers) {
-        int result = 0;
+        Double result = numbers.get(0);
 
-        for (int i = 0; i < numbers.size(); i++) {
+        for (int i = 1; i < numbers.size(); i++) {
             result -= numbers.get(i);
         }
 
